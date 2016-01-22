@@ -1,6 +1,6 @@
 FILE(REMOVE_RECURSE
-  "CMakeFiles/polytech_ricm4_tp1.dir/src/main.cpp.o"
   "CMakeFiles/polytech_ricm4_tp1.dir/src/shader.cpp.o"
+  "CMakeFiles/polytech_ricm4_tp1.dir/src/main.cpp.o"
   "polytech_ricm4_tp1.pdb"
   "polytech_ricm4_tp1"
 )

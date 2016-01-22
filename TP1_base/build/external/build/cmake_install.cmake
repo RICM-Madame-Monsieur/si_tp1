@@ -1,4 +1,4 @@
-# Install script for directory: /home/matthieu/Documents/Polytech/RICM4/S8/SI/TP1_Sujet/TP1_base/external
+# Install script for directory: /home/reatha/Cours/RICM4/SI/si_tp1/TP1_base/external
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

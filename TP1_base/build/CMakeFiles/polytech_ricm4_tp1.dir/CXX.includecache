@@ -398,7 +398,7 @@ core/setup.hpp
 GL/glew.h
 -
 
-/home/matthieu/Documents/Polytech/RICM4/S8/SI/TP1_Sujet/TP1_base/src/main.cpp
+/home/reatha/Cours/RICM4/SI/si_tp1/TP1_base/src/main.cpp
 iostream
 -
 shader.hpp

@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/matthieu/Documents/Polytech/RICM4/S8/SI/TP1_Sujet/TP1_base
+CMAKE_SOURCE_DIR = /home/reatha/Cours/RICM4/SI/si_tp1/TP1_base
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/matthieu/Documents/Polytech/RICM4/S8/SI/TP1_Sujet/TP1_base/build
+CMAKE_BINARY_DIR = /home/reatha/Cours/RICM4/SI/si_tp1/TP1_base/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/polytech_ricm4_tp1.dir/depend.make
@@ -49,42 +49,19 @@ include CMakeFiles/polytech_ricm4_tp1.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/polytech_ricm4_tp1.dir/flags.make
 
-CMakeFiles/polytech_ricm4_tp1.dir/src/main.cpp.o: CMakeFiles/polytech_ricm4_tp1.dir/flags.make
-CMakeFiles/polytech_ricm4_tp1.dir/src/main.cpp.o: ../src/main.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/matthieu/Documents/Polytech/RICM4/S8/SI/TP1_Sujet/TP1_base/build/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/polytech_ricm4_tp1.dir/src/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/polytech_ricm4_tp1.dir/src/main.cpp.o -c /home/matthieu/Documents/Polytech/RICM4/S8/SI/TP1_Sujet/TP1_base/src/main.cpp
-
-CMakeFiles/polytech_ricm4_tp1.dir/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/polytech_ricm4_tp1.dir/src/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matthieu/Documents/Polytech/RICM4/S8/SI/TP1_Sujet/TP1_base/src/main.cpp > CMakeFiles/polytech_ricm4_tp1.dir/src/main.cpp.i
-
-CMakeFiles/polytech_ricm4_tp1.dir/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/polytech_ricm4_tp1.dir/src/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matthieu/Documents/Polytech/RICM4/S8/SI/TP1_Sujet/TP1_base/src/main.cpp -o CMakeFiles/polytech_ricm4_tp1.dir/src/main.cpp.s
-
-CMakeFiles/polytech_ricm4_tp1.dir/src/main.cpp.o.requires:
-.PHONY : CMakeFiles/polytech_ricm4_tp1.dir/src/main.cpp.o.requires
-
-CMakeFiles/polytech_ricm4_tp1.dir/src/main.cpp.o.provides: CMakeFiles/polytech_ricm4_tp1.dir/src/main.cpp.o.requires
-	$(MAKE) -f CMakeFiles/polytech_ricm4_tp1.dir/build.make CMakeFiles/polytech_ricm4_tp1.dir/src/main.cpp.o.provides.build
-.PHONY : CMakeFiles/polytech_ricm4_tp1.dir/src/main.cpp.o.provides
-
-CMakeFiles/polytech_ricm4_tp1.dir/src/main.cpp.o.provides.build: CMakeFiles/polytech_ricm4_tp1.dir/src/main.cpp.o
-
 CMakeFiles/polytech_ricm4_tp1.dir/src/shader.cpp.o: CMakeFiles/polytech_ricm4_tp1.dir/flags.make
 CMakeFiles/polytech_ricm4_tp1.dir/src/shader.cpp.o: ../src/shader.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/matthieu/Documents/Polytech/RICM4/S8/SI/TP1_Sujet/TP1_base/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/reatha/Cours/RICM4/SI/si_tp1/TP1_base/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/polytech_ricm4_tp1.dir/src/shader.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/polytech_ricm4_tp1.dir/src/shader.cpp.o -c /home/matthieu/Documents/Polytech/RICM4/S8/SI/TP1_Sujet/TP1_base/src/shader.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/polytech_ricm4_tp1.dir/src/shader.cpp.o -c /home/reatha/Cours/RICM4/SI/si_tp1/TP1_base/src/shader.cpp
 
 CMakeFiles/polytech_ricm4_tp1.dir/src/shader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/polytech_ricm4_tp1.dir/src/shader.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/matthieu/Documents/Polytech/RICM4/S8/SI/TP1_Sujet/TP1_base/src/shader.cpp > CMakeFiles/polytech_ricm4_tp1.dir/src/shader.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/reatha/Cours/RICM4/SI/si_tp1/TP1_base/src/shader.cpp > CMakeFiles/polytech_ricm4_tp1.dir/src/shader.cpp.i
 
 CMakeFiles/polytech_ricm4_tp1.dir/src/shader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/polytech_ricm4_tp1.dir/src/shader.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/matthieu/Documents/Polytech/RICM4/S8/SI/TP1_Sujet/TP1_base/src/shader.cpp -o CMakeFiles/polytech_ricm4_tp1.dir/src/shader.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/reatha/Cours/RICM4/SI/si_tp1/TP1_base/src/shader.cpp -o CMakeFiles/polytech_ricm4_tp1.dir/src/shader.cpp.s
 
 CMakeFiles/polytech_ricm4_tp1.dir/src/shader.cpp.o.requires:
 .PHONY : CMakeFiles/polytech_ricm4_tp1.dir/src/shader.cpp.o.requires
@@ -95,16 +72,39 @@ CMakeFiles/polytech_ricm4_tp1.dir/src/shader.cpp.o.provides: CMakeFiles/polytech
 
 CMakeFiles/polytech_ricm4_tp1.dir/src/shader.cpp.o.provides.build: CMakeFiles/polytech_ricm4_tp1.dir/src/shader.cpp.o
 
+CMakeFiles/polytech_ricm4_tp1.dir/src/main.cpp.o: CMakeFiles/polytech_ricm4_tp1.dir/flags.make
+CMakeFiles/polytech_ricm4_tp1.dir/src/main.cpp.o: ../src/main.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/reatha/Cours/RICM4/SI/si_tp1/TP1_base/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/polytech_ricm4_tp1.dir/src/main.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/polytech_ricm4_tp1.dir/src/main.cpp.o -c /home/reatha/Cours/RICM4/SI/si_tp1/TP1_base/src/main.cpp
+
+CMakeFiles/polytech_ricm4_tp1.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/polytech_ricm4_tp1.dir/src/main.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/reatha/Cours/RICM4/SI/si_tp1/TP1_base/src/main.cpp > CMakeFiles/polytech_ricm4_tp1.dir/src/main.cpp.i
+
+CMakeFiles/polytech_ricm4_tp1.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/polytech_ricm4_tp1.dir/src/main.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/reatha/Cours/RICM4/SI/si_tp1/TP1_base/src/main.cpp -o CMakeFiles/polytech_ricm4_tp1.dir/src/main.cpp.s
+
+CMakeFiles/polytech_ricm4_tp1.dir/src/main.cpp.o.requires:
+.PHONY : CMakeFiles/polytech_ricm4_tp1.dir/src/main.cpp.o.requires
+
+CMakeFiles/polytech_ricm4_tp1.dir/src/main.cpp.o.provides: CMakeFiles/polytech_ricm4_tp1.dir/src/main.cpp.o.requires
+	$(MAKE) -f CMakeFiles/polytech_ricm4_tp1.dir/build.make CMakeFiles/polytech_ricm4_tp1.dir/src/main.cpp.o.provides.build
+.PHONY : CMakeFiles/polytech_ricm4_tp1.dir/src/main.cpp.o.provides
+
+CMakeFiles/polytech_ricm4_tp1.dir/src/main.cpp.o.provides.build: CMakeFiles/polytech_ricm4_tp1.dir/src/main.cpp.o
+
 # Object files for target polytech_ricm4_tp1
 polytech_ricm4_tp1_OBJECTS = \
-"CMakeFiles/polytech_ricm4_tp1.dir/src/main.cpp.o" \
-"CMakeFiles/polytech_ricm4_tp1.dir/src/shader.cpp.o"
+"CMakeFiles/polytech_ricm4_tp1.dir/src/shader.cpp.o" \
+"CMakeFiles/polytech_ricm4_tp1.dir/src/main.cpp.o"
 
 # External object files for target polytech_ricm4_tp1
 polytech_ricm4_tp1_EXTERNAL_OBJECTS =
 
-polytech_ricm4_tp1: CMakeFiles/polytech_ricm4_tp1.dir/src/main.cpp.o
 polytech_ricm4_tp1: CMakeFiles/polytech_ricm4_tp1.dir/src/shader.cpp.o
+polytech_ricm4_tp1: CMakeFiles/polytech_ricm4_tp1.dir/src/main.cpp.o
 polytech_ricm4_tp1: CMakeFiles/polytech_ricm4_tp1.dir/build.make
 polytech_ricm4_tp1: external/build/libGLFW_276.a
 polytech_ricm4_tp1: external/build/libGLEW_190.a
@@ -122,8 +122,8 @@ polytech_ricm4_tp1: CMakeFiles/polytech_ricm4_tp1.dir/link.txt
 CMakeFiles/polytech_ricm4_tp1.dir/build: polytech_ricm4_tp1
 .PHONY : CMakeFiles/polytech_ricm4_tp1.dir/build
 
-CMakeFiles/polytech_ricm4_tp1.dir/requires: CMakeFiles/polytech_ricm4_tp1.dir/src/main.cpp.o.requires
 CMakeFiles/polytech_ricm4_tp1.dir/requires: CMakeFiles/polytech_ricm4_tp1.dir/src/shader.cpp.o.requires
+CMakeFiles/polytech_ricm4_tp1.dir/requires: CMakeFiles/polytech_ricm4_tp1.dir/src/main.cpp.o.requires
 .PHONY : CMakeFiles/polytech_ricm4_tp1.dir/requires
 
 CMakeFiles/polytech_ricm4_tp1.dir/clean:
@@ -131,6 +131,6 @@ CMakeFiles/polytech_ricm4_tp1.dir/clean:
 .PHONY : CMakeFiles/polytech_ricm4_tp1.dir/clean
 
 CMakeFiles/polytech_ricm4_tp1.dir/depend:
-	cd /home/matthieu/Documents/Polytech/RICM4/S8/SI/TP1_Sujet/TP1_base/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/matthieu/Documents/Polytech/RICM4/S8/SI/TP1_Sujet/TP1_base /home/matthieu/Documents/Polytech/RICM4/S8/SI/TP1_Sujet/TP1_base /home/matthieu/Documents/Polytech/RICM4/S8/SI/TP1_Sujet/TP1_base/build /home/matthieu/Documents/Polytech/RICM4/S8/SI/TP1_Sujet/TP1_base/build /home/matthieu/Documents/Polytech/RICM4/S8/SI/TP1_Sujet/TP1_base/build/CMakeFiles/polytech_ricm4_tp1.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/reatha/Cours/RICM4/SI/si_tp1/TP1_base/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/reatha/Cours/RICM4/SI/si_tp1/TP1_base /home/reatha/Cours/RICM4/SI/si_tp1/TP1_base /home/reatha/Cours/RICM4/SI/si_tp1/TP1_base/build /home/reatha/Cours/RICM4/SI/si_tp1/TP1_base/build /home/reatha/Cours/RICM4/SI/si_tp1/TP1_base/build/CMakeFiles/polytech_ricm4_tp1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/polytech_ricm4_tp1.dir/depend
 

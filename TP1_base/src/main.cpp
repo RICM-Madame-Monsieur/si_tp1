@@ -64,9 +64,7 @@ int main()
     // Definition d'un vecteur
     vec3 v1(-0.5f, -0.5f, 0.0f);
     vec3 v2( 0.5f, -0.5f, 0.0f);
-    vec3 v3( 0.5f,  0.5f, 0.0f);
-
-    vec3 v4(-0.5f,  0.5f, 0.0f);
+    vec3 v3( 0.0f,  0.5f, 0.0f);
 
     // Definition d'un tableau de vecteurs
     vec3 vertex[3];
@@ -74,10 +72,10 @@ int main()
     vertex[1] = v2;
     vertex[2] = v3;
 
-    vec2 vertex2[3];
+    /*vec2 vertex2[3];
     vertex2[0] = v1;
-    vertex2[1] = v3;
-    vertex2[2] = v4;
+    vertesx2[1] = v3;
+    vertex2[2] = v4;*/
 
     // Obtention de l'ID de l'attribut "vertex_position" dans programID
     GLuint vertexPositionID = glGetAttribLocation(programID, "vertex_position");
@@ -91,7 +89,7 @@ int main()
 
     // Copie de donnees vers le VBO
     glBufferData(GL_ARRAY_BUFFER, sizeof(vertex), vertex, GL_STATIC_DRAW);
-    glBufferData(GL_ARRAY_BUFFER, sizeof(vertex2), vertex2, GL_STATIC_DRAW);
+    //glBufferData(GL_ARRAY_BUFFER, sizeof(vertex2), vertex2, GL_STATIC_DRAW);
 
     cout << "Initialisations..." << endl;
 
@@ -134,18 +132,27 @@ int main()
 
         // On dit a OpenGL de dessiner le contenu du buffer courant
         glDrawArrays(GL_TRIANGLES, 0, 3);
-        glDrawArrays(GL_TRIANGLES, 0, 3);
+        //glDrawArrays(GL_TRIANGLES, 0, 3);
 
         // On desactive l'attribut vertexPositionID
         glDisableVertexAttribArray(vertexPositionID);
 
-        /*glColor3f(1.0f, 0.0f, 0.0f);
+        //glColor3f(1.0f, 0.0f, 0.0f);
 
+		// carré en utilisant GL_TRIANGLES
+		// On dessine un premier triangle pour former un carré
         glBegin(GL_TRIANGLES);
-            glVertex3f(-0.5, -0.5, 0.0);
-            glVertex3f( 0.5, -0.5, 0.0);
-            glVertex3f( 0.0,  0.5, 0.0);
-        glEnd();*/
+            glVertex3f(-0.75f,  0.5f, 0.0f);
+            glVertex3f(-0.25f, 0.5f, 0.0f);
+            glVertex3f(-0.25f, 0.0f, 0.0f);
+        glEnd();
+        
+        // On dessine le deuxième triangle pour former un carré
+        glBegin(GL_TRIANGLES);
+            glVertex3f(-0.75f,  0.5f, 0.0f);
+            glVertex3f(-0.75f, 0.0f, 0.0f);
+            glVertex3f(-0.25f, 0.0f, 0.0f);
+        glEnd();
 
 		// Echange des zones de dessin buffers
 		glfwSwapBuffers();
