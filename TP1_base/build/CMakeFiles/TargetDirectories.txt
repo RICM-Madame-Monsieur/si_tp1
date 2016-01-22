@@ -1,3 +1,0 @@
-/home/reatha/Cours/RICM4/SI/si_tp1/TP1_base/build/external/build/CMakeFiles/GLEW_190.dir
-/home/reatha/Cours/RICM4/SI/si_tp1/TP1_base/build/external/build/CMakeFiles/GLFW_276.dir
-/home/reatha/Cours/RICM4/SI/si_tp1/TP1_base/build/CMakeFiles/polytech_ricm4_tp1.dir
